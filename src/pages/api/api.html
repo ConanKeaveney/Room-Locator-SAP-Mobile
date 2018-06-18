@@ -1,0 +1,78 @@
+<!--
+  Generated template for the ApiPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>Commute From Citywest</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding class="home">
+
+  <button ion-button color="secondary" id="getInfo" type="button" (click)="getTime()">Refresh Luas From Citywest</button>
+
+  <ion-grid>
+    <ion-row>
+      <ion-col>
+        <ion-item>
+          <strong class="destination">
+            Station
+          </strong>
+           <div id="currentLuasA">Time</div>
+        </ion-item>
+
+        <ion-item>
+            <strong class="destination">
+              Station
+            </strong>
+            <div id="nextLuasA">Time</div>
+          </ion-item>
+
+          <ion-item>
+            <strong class="destination">
+              Station
+            </strong>
+            <div id="currentLuasB">Time</div>
+          </ion-item>
+
+         <!--<ion-item>
+            <strong class="destination">
+              Station
+            </strong>
+            <div id="nextLuasB">Time</div>
+          </ion-item>-->
+         
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+
+  <button ion-button color="secondary" id="getInfo" type="button" (click)="getTimeBus()">Refresh Bus From CityWest</button>
+  <ion-grid>
+    <ion-row>
+      <ion-col>
+        <ion-item>
+          <strong>
+            <div class="nextBusDestination">Location</div>
+          </strong>
+           <div class="nextBusTime">Time</div>
+        </ion-item>
+        
+        <ion-item>
+            <strong>
+              <div class="nextBusDestination">Location</div>
+            </strong>
+             <div class="nextBusTime">Time</div>
+          </ion-item>
+        
+         
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+  
+</ion-content>
