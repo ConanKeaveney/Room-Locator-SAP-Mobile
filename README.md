@@ -6,4 +6,5 @@ This was built with Ionic3 and Angular 2+
 Quickstart:
 
 cd Room-Locator-Mobile/
+
 ionic serve
